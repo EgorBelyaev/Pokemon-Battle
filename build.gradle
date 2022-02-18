@@ -17,4 +17,7 @@ pmd {
     ruleSets = ["category/java/errorprone.xml", "category/java/bestpractices.xml"]
 }
 
+pmdMain {
+  ruleSets = [ "java-basic", "java-strings", "java-braces" ]
+}
 
