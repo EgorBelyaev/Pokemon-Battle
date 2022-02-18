@@ -11,10 +11,30 @@ dependencies {
 }
 
 pmd {
-    consoleOutput = true
-    toolVersion = "6.39.0"
-    rulesMinimumPriority = 5
-    ruleSets = ["category/java/errorprone.xml", "category/java/bestpractices.xml"]
+    ruleSets = [
+            "basic",
+            "braces",
+            "naming",
+            "android",
+            "clone",
+            "codesize",
+            "controversial",
+            "design", 
+            "finalizers",
+            "imports",
+            "j2ee",
+            "javabeans",
+            "junit",
+            "logging-jakarta-commons",
+            "logging-java",
+            "migrating",
+            "optimizations",
+            "strictexception",
+            "strings",
+            "sunsecure",
+            "typeresolution",
+            "unusedcode"
+            ]
 }
 
 pmdMain {
