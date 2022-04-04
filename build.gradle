@@ -23,3 +23,10 @@ pmd {
    ruleSets = ["category/java/errorprone.xml", "category/java/codestyle.xml","category/java/design.xml"]
 
 }
+
+@SuppressWarnings("PMD.CompareObjectsWithEquals")
+public class Bar {
+ void bar() {
+  int foo;
+ }
+}
